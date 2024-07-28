@@ -1,17 +1,30 @@
 ---
-
-import Navbar from "./Navbar.astro"
-
-
+import Navbar from "./Navbar.astro";
 ---
 
-<header>
-    <nav>
-        <Navbar />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav style="margin:0; padding;0">
+      <Navbar />
     </nav>
-</header>
-
-<h1 class="text-center">TND</h1>
-
-
-
+    <header style="background-color: green;">
+      <div class="container d-flex" style="justify-content:space-between;  align-items:center;">
+        <div>
+          <img src="/public/Imagenes/IMG-m5.jpg" width="120" height="120" margin:0; padding;0/>
+        </div>
+        <div>
+          <h2 class="text-center">Tienda Naturista Don Diego</h2>
+        </div>
+        <div>
+          <h1 class="">TND</h1>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
